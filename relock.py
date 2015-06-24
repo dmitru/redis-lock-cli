@@ -1,4 +1,5 @@
-__author__ = 'dmitru'
+
+from __future__ import print_function
 
 from sys import argv
 
