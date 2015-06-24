@@ -1,8 +1,7 @@
 # Relock - CLI for Redis locks
-Command line interface around python-redis-lock project. Might be useful when using locks in bash scripts.
-
-For predictable behaviour you should automatically generate lock names so that each lock name is used only once in 
-lock/try-release call sequence.
+Command line interface around python-redis-lock project.
+ 
+Provides CLI interface for named locks implemented with Redis storage.
 
 # Installation
 ```sh
