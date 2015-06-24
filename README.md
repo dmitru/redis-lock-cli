@@ -12,7 +12,7 @@ pip install -r ./requirements.txt
 # Usage
 ## Acquiring a named lock (blocking mode):
 ```sh
-relock.py lock <lock_name>
+python3 relock.py lock <lock_name>
 ```
 
 This will block until the lock is acquired.
@@ -20,11 +20,11 @@ This will block until the lock is acquired.
 ## Trying to acquire a lock in non-blocking mode:
 
 ```sh
-relock.py try <lock_name>
+python3 relock.py try <lock_name>
 ```
 
 ## Releasing a lock:
 ```sh
-relock.py release <lock_name>
+python3 relock.py release <lock_name>
 ```
 
